@@ -13,11 +13,11 @@ header {
   color: #fff;
 }
 
-h1 {
+h1.blog-title {
   font-size: 200%;
 }
 
-h2 {
+h2.subtitle {
   margin: 2% 0;
   font-size: 250%;
 }

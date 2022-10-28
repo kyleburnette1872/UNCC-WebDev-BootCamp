@@ -67,13 +67,17 @@ footer {
 .card {
   border-style: solid;
   border-width: 1px;
+  border-radius: 20%;
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
+  box-shadow: 20px 20px 30px grey;
+  rotate: 10deg;
 }
 
 .card header {
   padding: 20px;
+  border-radius: 50px 50px 0px 0px;
 }
 
 .card p {
