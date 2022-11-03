@@ -70,7 +70,7 @@ article p {
 
 /* Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
-  margin-left: 5%;
+  margin-left: 5%; /* Why use margin-left and not text-indent: 50px ? */
   list-style: square;
   font-family: monospace;
 }

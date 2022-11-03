@@ -65,10 +65,15 @@ article {
 /* TODO: Add a margin to the top and bottom of the paragraphs */
 article p {
   line-height: 24px;
+  margin: 2% auto;
 }
 
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
+  margin-left: 5%;
+  list-style: square;
+  list-style-position: inside;
+  font-family: monospace;
 }
 
 aside {
