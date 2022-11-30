@@ -6,5 +6,6 @@ var students = ["Michael", "Ralph", "Bobby", "Ronnie", "Jonny"];
 console.log(students.length);
 
 //using a `for` loop, the greeting "Great to see you, CLASSMATE_NAME!" logs to the console for each classmate's name in the `students` array.
-//for (var i=0; i < students.length; i++) { 
-//    console.log("Great to see you," + students[i] + "!");
+for (var i=0; i < students.length; i++) {
+    console.log("Great to see you," + students[i] + "!");
+}
