@@ -6,7 +6,8 @@ const nodejs = {
 
 // TODO: Destructure the object 'nodejs'
 
-console.log(pkgName); // <= Node.js
+//console.log(pkgName); // <= Node.js 
+console.log{ pkgName, type } = nodejs; 
 console.log(type); // <= JavaScript runtime environment
 
 // 2. Nested Object
