@@ -1,6 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+var chars = {
+  uppers: "ABCDEFHGIJKLMNOPQRSTUVWXYZ",
+  lowers: "abcdefghijklmnopqrstuvwxyz",
+  digits: "0123456789",
+  specials: "!@#$%^&*()_-=+[]{}",
+}
+var minlgth = 8;
+var maxlgth = 12;
+var passLgth = (minlgth >= maxlgth); {
+}
+  if (chars === passLgth) {
+    console.log("Valid password length");
+  } else ()
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
