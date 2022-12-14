@@ -1,9 +1,14 @@
 class Character {
   // TODO: Add a constructor
+  constructor(name, strength, hitPoints) {
+    this.name = name;
+    this.strength = strength;
+    this.hitPoints;
   // TODO: Create a printStats() method that console logs `this.name`, `this.strength`, and `this.hitPoints`
-
+  
+  }
   // TODO: Create a isAlive() method that returns a boolean based on whether or not a character's "hitpoints" are <= 0
-
+  if (isAlive <= 0)
   // TODO: Create a attack() method that accepts an opponent object and decreases the opponent's "hitPoints" by this character's strength
 }
 
