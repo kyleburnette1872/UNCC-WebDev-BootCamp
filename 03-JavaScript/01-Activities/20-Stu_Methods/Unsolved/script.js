@@ -3,7 +3,8 @@ var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
 var star = "polaris";
 
 // WRITE YOUR CODE BELOW
-//`"Canis Major"` is added as the first element of the `constellations` array and no elements are removed
+//`"Canis Major"` is added as the first element of the `constellations` array 
+//and no elements are removed
 //The correct answer:
 constellations.unshift('Canis Major')
 console.log(constellations)
@@ -33,7 +34,8 @@ console.log(galaxy)
 //console.log(galaxy);
 //which isn't an arry method.
 
-//It's done when the string `"polaris"` is converted into all capital letters and the new string is stored in a variable.
+//It's done when the string `"polaris"` is converted into all capital letters 
+//and the new string is stored in a variable.
 var polarisCapped = star.toUpperCase();
 console.log(polarisCapped)
 //My answer

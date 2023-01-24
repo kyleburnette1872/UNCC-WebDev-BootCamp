@@ -4,7 +4,8 @@
 // Logs Window
 console.log(this);
 
-// When the keyword "this" is used inside of an object like planet, "this" belongs to that object
+// When the keyword "this" is used inside of an object like planet, 
+//"this" belongs to that object
 var planet = {
   name: "Earth",
   age: "4.543 billion years",
