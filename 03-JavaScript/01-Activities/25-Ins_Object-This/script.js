@@ -27,6 +27,6 @@ var planet = {
   }
 };
 
-// Calls object methods
+// Calls object methods 
 planet.logFacts();
 planet.logPopulation();

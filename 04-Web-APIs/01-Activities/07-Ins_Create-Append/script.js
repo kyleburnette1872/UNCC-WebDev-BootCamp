@@ -7,7 +7,7 @@ if (tagName !== "h1" && tagName !== "h2" && tagName !== "p" && tagName !== "div"
   // Creates element based on tag entered by user
   var tag = document.createElement(tagName);
 
-  // Adds text content to created tag
+  // Adds text content to created tag (This is a property)
   tag.textContent = "This was made via prompts. It's a " + tagName + ".";
   
   // Appends tag as child of document body

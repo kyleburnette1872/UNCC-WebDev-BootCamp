@@ -1,6 +1,7 @@
 // TODO: What will the following line of code log?
-console.log(window);
-// returns a reference to the console object, which provides methods for logging information to the browser's console.
+console.log(window); // window interface = browser window
+// returns a reference to the console object, which provides methods for
+//logging information to the browser's console.
 
 // TODO: What will the following line of code log?
 console.log(window.document);
@@ -8,7 +9,7 @@ console.log(window.document);
 
 // TODO: What will the following line of code log?
 console.log(document.documentElement);
-// returns the Element that is the root element of the document
+// returns the Element that is the root element of the document, HTML
 
 // TODO: What will the following line of code log?
 console.log(document.head);

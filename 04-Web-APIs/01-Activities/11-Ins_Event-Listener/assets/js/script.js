@@ -7,6 +7,8 @@ var mode = "dark";
 
 // Listen for a click event on toggle switch
 themeSwitcher.addEventListener("click", function() {
+  //addEventListener looks for the event or action
+  //then runs the function. 
   // If mode is dark, apply light background
   if (mode === "dark") {
     mode = "light";

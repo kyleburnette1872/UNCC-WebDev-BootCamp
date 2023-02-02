@@ -8,7 +8,7 @@ var secondsLeft = 10;
 
 function setTime() {
   // Sets interval in variable
-  var timerInterval = setInterval(function() {
+  var timerInterval = setInterval(function() {// sentInterval is a method
     secondsLeft--;
     timeEl.textContent = secondsLeft + " seconds left till colorsplosion.";
 
