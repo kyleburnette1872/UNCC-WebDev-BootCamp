@@ -18,15 +18,15 @@ export default function Card() {
       <div className="card" style={cardStyle}>
         <img
           className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
+          src={`http://placekitten.com/${randomWidth()}`}
           alt="Card cap"
         />
         <div className="card-body">
-          <h5 className="card-title">Name: {/* Display the dog's name here */}</h5>
-          <p className="card-text">Description: {/* Display the dog's description here */}</p>
-          <p className="card-text">ID: {/* Display the dog's id here */}</p>
+          <h5 className="card-title">Name: {/* Display the kitten's name here */}</h5>
+          <p className="card-text">Description: {/* Display the kitten's description here */}</p>
+          <p className="card-text">ID: {/* Display the kitten's id here */}</p>
           <a href="#" className="btn btn-primary">
-            Adopt {/* Display the dog's name here */}
+            Adopt {/* Display the kitten's name here */}
           </a>
         </div>
       </div>

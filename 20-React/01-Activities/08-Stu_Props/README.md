@@ -24,9 +24,9 @@ The activity is done when it meets the following criteria:
 
 * It's done when I have updated the return method in `src/components/Display.js` to render a card.
 
-* It's done when I have passed data for the dog's `name`, `description`, and `id` as props to the `Card` component.
+* It's done when I have passed data for the kitten's `name`, `description`, and `id` as props to the `Card` component.
 
-* It's done when I have modified to `Card` component to render the `canine` properties.
+* It's done when I have modified to `Card` component to render the `feline` properties.
 
 ## 💡 Hints
 

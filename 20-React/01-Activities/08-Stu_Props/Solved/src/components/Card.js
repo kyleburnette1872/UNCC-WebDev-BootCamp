@@ -16,7 +16,7 @@ export default function Card(props) {
       <div className="card" style={cardStyle}>
         <img
           className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
+          src={`http://placekitten.com/${randomWidth()}`}
           alt="Card cap"
         />
         <div className="card-body">
