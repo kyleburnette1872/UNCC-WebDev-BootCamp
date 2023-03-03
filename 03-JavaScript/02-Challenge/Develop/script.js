@@ -8,7 +8,9 @@ var generatePassword = function () {
     "Select the length of password between 8-128 characters"
   );
   if (promptWindow >= 8 && promptWindow <= 128) {
-    confirm("Thank you");
+    confirm(`You selected ${promptWindow}`);
+  } else if (promptWindow === "") {
+    promptWindow.addEventListener("click", generatePassword);
   } else {
     alert("Invalid number");
     return promptWindow;
